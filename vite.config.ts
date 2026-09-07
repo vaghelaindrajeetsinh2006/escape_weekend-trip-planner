@@ -7,7 +7,7 @@ import { defineConfig } from 'vite';
 const rootDir = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: '/escape_weekend-trip-planner/',
+  base: '/ESCAPE_weekend-trip-planner/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -15,3 +15,4 @@ export default defineConfig({
     },
   },
 });
+gi
